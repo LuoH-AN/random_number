@@ -1,5 +1,5 @@
 name: random_number
-desc: 随机数插件,发送 /rn 返回一个 0-6 的随机整数
-version: v1.0.0
+desc: 随机数插件,/rn 抽 0-6;管理员可用 /rnrig 细粒度控制骰子(定向受害者/范围/屏蔽/偏置/次数)
+version: v1.2.0
 author: LuLu
 repo: ""
