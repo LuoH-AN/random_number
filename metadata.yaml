@@ -1,0 +1,5 @@
+name: random_number
+desc: 随机数插件,发送 /rn 返回一个 0-6 的随机整数
+version: v1.0.0
+author: LuLu
+repo: ""
