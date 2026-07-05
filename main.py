@@ -17,8 +17,7 @@ class RandomNumberPlugin(Star):
     def __init__(self, context: Context) -> None:
         super().__init__(context)
 
-    @filter.command("rn")
-    @filter.command_alias("随机数", "roll")
+    @filter.command("rn", alias={"随机数", "roll"})
     async def random_number(self, event: AstrMessageEvent):
         num = random.randint(0, 6)
         yield event.plain_result(f"🎲 你抽到了:{num}")
